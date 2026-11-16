@@ -69,7 +69,7 @@
       '<div class="tone-grid">' + cards + '</div>' +
       '<div class="section-title">Minimal pairs</div>' + pairs +
       '<div class="card flat"><div class="row between"><div><b style="font-size:15px">Listen and identify</b>' +
-        '<p class="small muted" style="margin-top:2px">10 single syllables, five tone options</p></div>' +
+        '<p class="small muted" style="margin-top:2px">10 of ' + (window.MMS_TONE_POOL || []).length + ' single-syllable words · five tone options</p></div>' +
         '<button class="btn btn-primary btn-sm" id="drill"' + (has ? '' : ' disabled') + '>Start</button></div></div>' +
       (has ? '' : '<p class="tiny muted center">A Chinese speech voice is required for the drill.</p>') +
       '</section>';
