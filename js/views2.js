@@ -586,7 +586,11 @@
         '<p class="tiny muted" style="margin-top:2px">Clears boxes, streak and stats on this device.</p></div>' +
         '<button class="btn btn-sm btn-danger" id="resetBtn">Reset</button></div></div>' +
 
-      '<p class="tiny muted center">Mandarin Mastery Suite · offline · no account · no tracking<br>200 words · simplified characters · pinyin with tone numbers</p>' +
+      '<p class="tiny muted center">Mandarin Mastery Suite · offline · no account · no tracking<br>' +
+        MMS_CARDS.length + ' cards in ' + MMS_SETS.length + ' sets · ' +
+        MMS_CHARS.length + ' characters · ' + MMS_DIALOGUES.length + ' dialogues · ' +
+        window.MMS_PHRASE_GROUPS.reduce(function (n, g) { return n + g.items.length; }, 0) + ' phrases<br>' +
+        'Simplified characters · pinyin with tone numbers</p>' +
       '</section>';
 
     MMS.$$('[data-go]', main).forEach(function (b) {
