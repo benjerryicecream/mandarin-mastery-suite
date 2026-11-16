@@ -30,7 +30,7 @@ js/app.js               hash router + boot
 - **Tone trainer** — pitch-contour diagrams on a 5-to-1 grid, minimal pairs (*mā má mǎ mà ma*, *shī shí shǐ shì*, *shū shú shǔ shù*, *yī yí yǐ yì*, *bāo báo bǎo bào*) and a 65-syllable listen-and-identify drill.
 - **Character writer** — 人 大 小 山 水 日 月 木 火 土 王 天 地 上 下 中 国 好 学 生 with numbered strokes, an animated stroke order guide, a printable-character reference overlay, and finger/mouse tracing with a stroke-count check.
 - **Dialogues** — 5 scenes, line-by-line audio, pinyin and English toggles.
-- **Phrasebook** — 38 survival phrases in six situations (restaurant, directions, shopping, hotel, emergency, basics).
+- **Phrasebook** — 36 survival phrases in six situations (restaurant, directions, shopping, hotel, emergency, basics).
 - **Today** — one guided flow: due reviews → up to 5 new cards → a short quiz.
 - **Progress** — streak, best streak, mastered count, accuracy per set, box distribution, daily goal ring, review-queue count.
 

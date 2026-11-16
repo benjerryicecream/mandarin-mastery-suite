@@ -267,7 +267,7 @@
     if (mode === 'tone') {
       main.innerHTML = '<section class="screen">' + header('Tone identification', 'One syllable, five tone choices') +
         '<div class="card"><b style="font-size:15px">How this drill works</b>' +
-        '<p class="small muted" style="margin-top:6px">A random single syllable is played from a pool of 65 words — including the classic mā / má / mǎ / mà set. ' +
+        '<p class="small muted" style="margin-top:6px">A random single syllable is played from a pool of ' + (window.MMS_TONE_POOL || []).length + ' words — including the classic mā / má / mǎ / mà set. ' +
         'Pick tone 1, 2, 3, 4 or neutral. Tone drills do not change your Leitner boxes.</p></div>' +
         '<button class="btn btn-primary btn-block" id="startTone">Start 10-question drill</button>' +
         '<button class="btn btn-ghost btn-block" id="toTrainer">Open the tone trainer first</button>' +

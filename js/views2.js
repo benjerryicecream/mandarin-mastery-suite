@@ -147,11 +147,11 @@
     W.drawn = [];
     W.animStart = null;
 
-    requestAnimationFrame(function () {
-      setupCanvas(canvas);
-      bindPointer(canvas);
-      drawW();
-    });
+    // set up synchronously: requestAnimationFrame can be paused in a background tab,
+    // which would leave the practice canvas blank and unbound
+    setupCanvas(canvas);
+    bindPointer(canvas);
+    drawW();
 
     function selectChar(i) {
       Store.state.writer.char = i;
